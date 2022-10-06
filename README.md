@@ -1,3 +1,3 @@
-# test1.github.io
+# spotices.github.io
 
 testing github pages
