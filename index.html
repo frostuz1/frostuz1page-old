@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="icon" href="resources/sakuspin.gif">
     <title>Main page</title>
 <style>
 body {
@@ -39,19 +40,32 @@ body {
 
   .center {
     margin: auto;
-    width: 640px;
-    padding: 50px;
+
     font-family: 'Courier';
     color: white;
     text-align: center;
     user-select: none;
     }
+
+  .leftfooter {
+    position: fixed;
+    left: 10px;
+    bottom: 5px;
+    right: 10px;
+    width: 95%;
+    font-family: 'Courier';
+    color: white;
+    text-align: left;
+    user-select: none;
+    font-size: 15px;
+    }
+
   .centerpage {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    height: 200px;
+    height: 600px;
     font-size: 150px;
     user-select: none;
   }
@@ -61,11 +75,15 @@ body {
 <body>
 
     <div class="footer">
-    <p style="font-family:Courier;color:white;bottom:0">fced#0207</p>
+    <p style="font-family:Courier;color:white;bottom:0"><img src="resources/sakuspin.gif" style="width:15px;height:15px;">fced#0207<img src="resources/sakuspin.gif" style="width:15px;height:15px;"></p>
     </div>
 
     <div class="footer1">
     <p style="font-family:Courier;color:white;bottom:0">Created on Thursday, October 6th.</p>
+    </div>
+
+    <div class="leftfooter">
+    <p>wip</p>
     </div>
 
     <div class="center">
@@ -73,6 +91,7 @@ body {
     </div>
 
     <div class="centerpage">
-    <p>nombre de la pagina</p>
+    <p>dis page</p>
     </div>
+
 </html>
