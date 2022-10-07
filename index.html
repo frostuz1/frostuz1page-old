@@ -2,21 +2,77 @@
 <html>
 <head>
     <title>Main page</title>
-</head>
 <style>
 body {
-  background-image: url("bgtest.png");
+  background-image: url("resources/bg1.jpg");
   background-color: #cccccc;
   height: 500px;
   background-position: center;
   background-size: cover;
   position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  user-select: none;
 }
+  .footer {
+    position: fixed;
+    left: 10px;
+    bottom: 5px;
+    right: 10px;
+    width: 95%;
+    background-color: transparent;
+    color: transparent;
+    text-align: center;
+    user-select: none;
+  }
+  .footer1 {
+    position: fixed;
+    left: 10px;
+    bottom: 5px;
+    right: 10px;
+    width: 95%;
+    background-color: transparent;
+    color: transparent;
+    text-align: right;
+    user-select: none;
+    }
+
+  .center {
+    margin: auto;
+    width: 640px;
+    padding: 50px;
+    font-family: 'Courier';
+    color: white;
+    text-align: center;
+    user-select: none;
+    }
+  .centerpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 200px;
+    font-size: 150px;
+    user-select: none;
+  }
+
 </style>
+</head>
 <body>
 
-    <h1>Skillissue.com</h1>
-    <p>Skillissue.com</p>
+    <div class="footer">
+    <p style="font-family:Courier;color:white;bottom:0">fced#0207</p>
+    </div>
 
-</body>
+    <div class="footer1">
+    <p style="font-family:Courier;color:white;bottom:0">Created on Thursday, October 6th.</p>
+    </div>
+
+    <div class="center">
+    <p>Welcome to...</p>
+    </div>
+
+    <div class="centerpage">
+    <p>nombre de la pagina</p>
+    </div>
 </html>
