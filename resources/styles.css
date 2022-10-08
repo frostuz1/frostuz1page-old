@@ -1,0 +1,68 @@
+body {
+  background-image: url("resources/bg1.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  user-select: none;
+}
+footer {
+    position: fixed;
+    left: 10px;
+    bottom: 5px;
+    right: 10px;
+    width: 95%;
+    background-color: transparent;
+    color: transparent;
+    text-align: center;
+    user-select: none;
+    font-size: 22.5px;
+  }
+footer1 {
+    position: fixed;
+    left: 10px;
+    bottom: 5px;
+    right: 10px;
+    width: 95%;
+    background-color: transparent;
+    color: transparent;
+    text-align: right;
+    user-select: none;
+    font-size: 22.5px;
+  }
+
+center {
+    margin: auto;
+
+    font-family: 'Courier';
+    color: white;
+    text-align: center;
+    user-select: none;
+    font-size: 22.5px;
+    }
+
+leftfooter {
+    position: fixed;
+    left: 10px;
+    bottom: 5px;
+    right: 10px;
+    width: 95%;
+    font-family: 'Courier';
+    color: white;
+    text-align: left;
+    user-select: none;
+    font-size: 14px;
+    }
+
+centerpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 285px;
+    font-size: 200px;
+    user-select: none;
+    }
