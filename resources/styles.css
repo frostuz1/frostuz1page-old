@@ -77,8 +77,8 @@ middle {
     animation: color-change 20s infinite;
     }
 
-    @keyframes color-change {
-      0% {
+@keyframes color-change {
+  0% {
     color: blue;
   }
   10% {
@@ -111,4 +111,33 @@ middle {
   100% {
     color: pink;
   }
+  }
+
+
+  .eregebev2
+  {
+    background-image: repeating-linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+        font-size: 190px;
+  }
+
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
     }
+  }
