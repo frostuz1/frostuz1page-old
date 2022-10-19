@@ -163,5 +163,46 @@ middle {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     margin: auto;
+    transition: all 0.5s;
+    cursor: pointer;
 
+  }
+
+  .button {
+    border: none;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    backdrop-filter: blur( 10.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: auto;
+    text-align: center;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
   }
