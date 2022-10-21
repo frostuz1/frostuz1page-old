@@ -46,7 +46,7 @@ center {
 
 leftfooter {
     position: fixed;
-    left: 10px;
+    left: 50px;
     bottom: 5px;
     right: 10px;
     width: 95%;
@@ -54,7 +54,7 @@ leftfooter {
     color: white;
     text-align: left;
     user-select: none;
-    font-size: 14px;
+    font-size: 22.5px;
     }
 
 centerpage {
