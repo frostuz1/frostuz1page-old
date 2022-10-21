@@ -65,6 +65,14 @@ centerpage {
     font-size: 200px;
     user-select: none;
     }
+centerpagebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    user-select: none;
+    }
+
 
 middle {
     margin: 0 auto;
@@ -157,7 +165,7 @@ middle {
 
     width: 250px;
     font-size: 20px;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 0px 10px 40px;
     text-decoration: none;
     backdrop-filter: blur( 10.5px );
     border-radius: 10px;
@@ -173,36 +181,37 @@ middle {
     text-align: center;
     transition: all 0.5s;
     cursor: pointer;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 100px 10px 100px;
     text-decoration: none;
     backdrop-filter: blur( 10.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     margin: auto;
     text-align: center;
+    font-size: 50px;
   }
 
-  .button span {
+  button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
 
-  .button span:after {
+  button span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
     top: 0;
-    right: -20px;
+    right: -50px;
     transition: 0.5s;
   }
 
-  .button:hover span {
-    padding-right: 25px;
+  button:hover span {
+    padding-right: 50px;
   }
 
-  .button:hover span:after {
+  button:hover span:after {
     opacity: 1;
     right: 0;
   }
