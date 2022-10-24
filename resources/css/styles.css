@@ -65,12 +65,14 @@ centerpage {
     font-size: 200px;
     user-select: none;
     }
+
 centerpagebutton {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 200px;
     user-select: none;
+
     }
 
 
@@ -81,7 +83,7 @@ middle {
     align-items: center;
     height: 285px;
     font-size: 200px;
-    user-select: none;
+    font-family: 'Cinzel';
     animation: color-change 20s infinite;
     padding: 10px 40px 10px 40px;
     backdrop-filter: blur( 10.5px );
@@ -208,7 +210,7 @@ middle {
   }
 
   button:hover span {
-    padding-right: 50px;
+    padding-right: 100px;
   }
 
   button:hover span:after {
